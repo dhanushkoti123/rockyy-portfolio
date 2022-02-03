@@ -1,0 +1,938 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+    
+}
+
+nav{
+
+     background-color: rgba(0,0,0,0.5);
+     width: 100%;
+     height: 50px;
+     position: fixed;
+     z-index: 9878;
+     line-height: 50px;
+    
+}
+
+nav p{ 
+    float: left;
+    color: azure;
+    margin-left: 15px;
+    font-style: italic;
+
+
+}
+    
+  
+
+nav ul{
+    float: right;
+    list-style: none;
+    display: flex;
+    
+}
+
+/* nav ul li{
+    display: inline-block;
+} */
+nav ul li a{
+    text-decoration: none;
+     padding: 0 20px;
+    font-size: 20px;
+     color: 	 #ffb31ad5;
+     font-style: italic;
+     transition: 2ms;
+
+
+}
+nav  a:hover{
+    
+    color: azure;
+    border-radius: 20px 40px;
+    background:#ffb31ad5;
+
+}
+
+#ham {
+    color:#ffb31ad5; 
+    font-size: 20px;
+    float: right;
+    line-height: 50px;
+    display: none;
+}
+
+#home{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://images.unsplash.com/photo-1604948501466-4e9c339b9c24?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8YWNoaWV2ZW1lbnR8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60");
+    background-position: center;
+    background-size:cover ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+#home h2{
+    color:#ffb31ad5 ;
+    font-style: italic;
+    font-size: 25px;  
+    /* font-variant-caps: petite-caps; */
+
+}
+
+/* #home img{
+    margin: 10px 0;
+    width: 13%;
+    float: left;
+    
+    display: flex;
+} */
+#home h3{
+    color:azure ;
+    font-variant-caps: all-small-caps;
+    letter-spacing: 2px;
+    font-size: 2rem;
+}
+#home p{
+    color: azure;
+    /* font-variant-caps: all-small-caps; */
+    font-size: 1rem;
+}
+/* #qualify{
+    background-color: #ffb31ad5;
+} */
+
+#qualify a{
+    background-color:#ffb31ad5;
+    text-decoration: none;
+    /* color:azure; */
+    border-radius: 3px 5px;
+    border: none;
+    /* padding: 2px 5px; */
+    margin-top: 25px;
+    cursor: pointer;
+    color: black;
+    font-size: 20px;
+    
+
+
+
+}
+.btn {
+    border-radius: 2px 5px;
+    margin-top: 15px;
+}
+
+/* br{
+    height: 0px;
+} */
+
+/* qualifications */
+#qualifications{
+    background-image: url("https://media.istockphoto.com/photos/old-school-chalkboard-picture-id589091614?b=1&k=20&m=589091614&s=170667a&w=0&h=PUYwwaVw2abMKXmAaDGC8msRBrIvDPl7PCvJaYQmEWo=");
+    height: 100vh;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+   
+    
+
+}
+
+
+#qualifications h2{
+             color:#ffaa00d5;
+             font-size: 2rem;
+             margin-top: 25px;
+             /* float: left;
+             margin-left: 15px; */
+             /* font-variant-caps: petite-caps; */
+             align-items: center;  
+             text-align: center;           
+}
+
+table{
+    width: 70%;
+    /* margin-left: 40px; */
+    height: 70vh;
+    margin-top: 15px;
+    /* border-color:  black  blanchedalmond; */
+    /* box-shadow: 20px; */
+    padding:10px;
+    
+}
+
+thead{
+    color:cornsilk;
+    font-style: italic;
+    text-transform: lowercase;
+    /* font-variant-caps: petite-caps; */
+    font-size: 2rem;
+    align-items: center;
+    padding: 15px 20px;
+   
+}
+
+tbody td{
+    
+    font-size: 1rem;
+    color:whitesmoke;
+    align-items: center;
+    padding: 15px 20px;
+    font-weight: bold;
+    
+
+}
+
+tfoot td{
+    font-size: 1rem;
+    color:whitesmoke;
+    padding: 15px 20px;
+    font-weight: bold;
+    align-items: center;
+}
+
+/* qualifications ends */
+
+/* Achievements */
+
+#Achieve{
+    background-image: url("https://images.unsplash.com/photo-1515462277126-2dd0c162007a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1888&q=80");
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+
+}
+
+#Achieve h2{
+    color:#ffaa00d5 ;
+    font-size: 2rem;
+    margin-top: 25px;
+     /* float: left;
+    margin-left: 15px; */
+     
+     align-items: center;  
+     text-align: center;            
+
+}
+
+.gallery{
+    max-width: 900px;
+    margin: auto;
+    background-color: azure;
+    overflow: auto;
+    margin-top: 5px;
+
+}
+
+.photos{
+    margin: 20px;
+    width: 400px;
+    /* float: left; */
+    border: 1px solid #ffaa00d5 ;
+
+}
+
+.photos img{
+    width: 100%;
+    height: auto;
+}
+
+.photos p{
+    text-align: center;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    font-variant-caps: all-petite-caps;
+}
+
+
+/* passion starts */
+#passion{
+    background-image: url("https://images.unsplash.com/photo-1533090161767-e6ffed986c88?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80");
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    background-size: cover;
+    
+    
+}
+
+
+
+#passion h2{
+    align-items: center;
+    text-align: center;
+    color:#ffaa00d5 ;
+    margin-top: 15px;
+    font-variant-caps: petite-caps;
+    font-weight:bolder ;
+    
+
+
+
+}
+
+.pas{
+    max-width: 500px;
+    background-color: bisque;
+    margin-left: 40px;
+    padding: 40px;
+    height:80vh;
+    margin-top: 20px;
+    border-radius: 20px;
+    
+}
+
+.pass h3{
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(165, 42, 42, 0.747);
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-variant-caps: all-small-caps;
+
+}
+
+.pass p{
+    text-align: center;
+    padding: 5px;
+    font-variant-caps: petite-caps;
+}
+
+
+
+/* contact-us */
+#contact-us{
+    background-color:rgba(0, 0, 0, 0.767);
+    width: 100%;
+    height: 65vh;
+    border-radius: 0px 30px;
+
+}
+
+#contact-us h2{
+    align-items: center;
+    text-align: center;
+    color:#ffaa00d5 ;
+    margin-top: 45px;
+    font-variant-caps: petite-caps;
+    font-weight:bolder ;
+    
+}
+.form-input{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.form{
+    margin: 5px 50px;
+    color: bisque;
+}
+
+textarea{
+    margin: 5px 50px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    height: 50px;
+}
+
+.submit{
+    margin-left: 250px;
+    color: black;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    
+
+
+}
+.submit button:hover{
+    color:#ffaa00d5  ;
+}
+
+.submit a{
+    color: green;
+    text-decoration: none;
+    padding: 10px;
+    
+    
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    align-items:center;
+    justify-content: center;
+    color:bisque ;
+    text-decoration: none;
+    margin-top: 50px;
+}
+.footer a{
+    text-decoration: none;
+}
+
+.footer p{
+    color: bisque;
+   
+}
+.fa-envelope{
+    color:red;
+}
+
+.fa-instagram{
+    color: palevioletred;
+}
+
+.fa-linkedin-in{
+    color: blue;
+}
+
+.develop p{
+    text-align: center;
+    justify-content: center;
+    color: azure;
+    margin-top: 3px;
+}
+
+
+/* media query */
+
+@media screen and (max-width:800px){
+    html, body{
+        margin: 0;
+        padding: 0;
+        overflow-x:hidden ;
+
+}
+
+#qualifications table {
+    width:100%;
+    margin-left: 10px;
+}
+thead{
+    font-size: 1.2rem;
+}
+tbody td{
+    font-size: 0.9rem;
+}
+
+tfoot td{
+    font-size: 00.9rem;
+}
+
+.gallery{
+    width: 700px;
+}
+
+
+
+
+
+    
+
+
+}
+
+@media screen and (max-width:772px){
+    #ham{
+        display: block;
+        margin-right: 25px;
+        
+        float: right;
+    }
+     nav ul{
+           display: none;
+           
+    }
+
+
+    .mass{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    #qualifications table{
+        width: 90%;
+        margin-left: 10px;
+        
+        margin-bottom: 30px;
+        
+
+    }
+    thead{
+        font-size: 1rem;
+    }
+    tbody td{
+        font-size: 0.9rem;
+    }
+    
+    tfoot td{
+        font-size: 0.9rem;
+    }
+
+
+}
+
+@media screen and (max-width:566px){
+    thead{
+        font-size: 1rem;
+    }
+    tbody td{
+        font-size: 0.8rem;
+    }
+    
+    tfoot td{
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width:522px){
+    thead{
+        font-size: 1rem;
+    }
+    tbody td{
+        font-size: 0.8rem;
+    }
+    
+    tfoot td{
+        font-size: 0.8rem;
+    }
+
+    .pas{
+        font-size: 0.7rem;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: 20px;
+        width: 90%;
+    }
+
+
+    
+
+
+
+}
+@media screen and (max-width:482px){
+    #home h2{
+        font-size:  20px; 
+    }
+    #home h3{
+     font-size: 1.8rem;
+    }
+    #home p{
+        font-size:0,8rem ;
+    }
+
+    thead{
+        font-size: 0.8rem;
+    }
+    tbody td{
+        font-size: 0.6rem;
+    }
+    
+    tfoot td{
+        font-size: 0.6rem;
+    }
+}
+
+@media screen and (max-width:442px){
+    #qualifications h2{
+        font-size: 1.5rem;
+    }
+
+    #Achieve h2{
+        font-size: 1.5rem;
+    }
+    #passion h2{
+        font-size: 1.5rem;
+    }
+
+    #contact-us h2{
+        font-size: 1.5rem;
+    }
+
+
+        
+    .photos {
+        width: 400px;
+        justify-content: center;
+        margin-left: 20px;
+        
+    }
+    
+}
+
+@media screen and (max-width:416px){
+    .photos {
+        width: 400px;
+        justify-content: center;
+        
+        
+    }
+
+    .photos img{
+        width: 90%;
+    }
+
+    
+
+
+}
+
+@media screen and (max-width:360px){
+    #home h2{
+        font-size: 18px;
+    }
+    #home h3{
+        font-size: 0.9rem;
+    }
+    #home p{
+        font-size: 0.6rem;
+    }
+
+    #qualify a{
+        background-color:#ffb31ad5;
+    text-decoration: none;
+    /* color:azure; */
+    /* border-radius: 3px 5px; */
+    border: none;
+    /* padding: 2px 5px; */
+    margin-top: 25px;
+    cursor: pointer;
+    color: black;
+    font-size: 15px;
+    }
+
+    .btn {
+        /* border-radius: 2px 5px; */
+        margin-top: 15px;
+    }
+    #qualifications h2{
+        font-size: 1rem;
+    }
+
+#Achieve{
+    background-position: center;
+}
+
+    #Achieve h2{
+        font-size: 1rem;
+    }
+
+    
+    
+.gallery{
+    max-width: 700px;
+    /* margin: 0 auto; */
+    background-color: azure;
+    overflow: auto;
+    margin-top: 5px;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.photos{
+    /* margin: 0 10px; */
+    width: 500px;
+    /* float: left; */
+    border: 1px solid #ffaa00d5 ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 25px;
+
+}
+.pas{
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 15px;
+    padding-top:40px
+}
+
+    #passion h2{
+        font-size: 1rem;
+    }
+
+    #contact-us h2{
+        font-size: 1rem;
+    }
+
+    .footer{
+        font-size: 0.8rem;
+    }
+
+    .develop{
+        font-size: 0.8rem;
+    }
+
+
+    
+    
+
+   
+
+    .photos{
+        width: 300px;
+        
+    }
+
+    
+
+    table{
+        width: 100%;
+        /* margin-left: 40px; */
+        height: 70vh;
+        margin-top: 15px;
+        /* border-color:  black  blanchedalmond; */
+        /* box-shadow: 20px; */
+        padding:10px;
+        
+    }
+    
+    thead{
+        color:cornsilk;
+        font-style: italic;
+        text-transform: lowercase;
+        font-variant-caps: petite-caps;
+        font-size: 0.6rem;
+        align-items: center;
+        padding: 7.5px 10px;
+       
+    }
+    
+    tbody td{
+        
+        font-size: 0.5rem;
+        color:whitesmoke;
+        align-items: center;
+        padding: 7.5px 10px;
+        font-weight: bold;
+        
+    
+    }
+    
+    tfoot td{
+        font-size: 0.5rem;
+        color:whitesmoke;
+        padding: 7.5px 10px;
+        font-weight: bold;
+        align-items: center;
+    }
+
+    .pas{
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: 15px;
+     }
+
+     .submit{
+       margin: 0 auto;
+
+
+       
+
+     }
+     .footer{
+         margin-top: 35px;
+     }
+
+
+    
+    
+}
+@media screen and (max-width:328px){
+    
+    #home h2{
+        font-size: 18px;
+    }
+    #home h3{
+        font-size: 1rem;
+    }
+    #home p{
+        font-size: 0.7rem;
+    }
+
+    #qualify a{
+        background-color:#ffb31ad5;
+    text-decoration: none;
+    /* color:azure; */
+    /* border-radius: 3px 5px; */
+    border: none;
+    /* padding: 2px 5px; */
+    margin-top: 25px;
+    cursor: pointer;
+    color: black;
+    font-size: 15px;
+    }
+
+    .btn {
+        /* border-radius: 2px 5px; */
+        margin-top: 15px;
+    }
+    #qualifications h2{
+        font-size: 1rem;
+    }
+
+#Achieve{
+    background-position: center;
+}
+
+    #Achieve h2{
+        font-size: 1rem;
+    }
+
+    
+    
+.gallery{
+    max-width: 700px;
+    margin: 0 auto;
+    background-color: azure;
+    overflow: auto;
+    margin-top: 5px;
+
+}
+
+.photos{
+    margin: 0 10px;
+    width: 500px;
+    /* float: left; */
+    border: 1px solid #ffaa00d5 ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+.pas{
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-left: 15px;
+    padding-top:40px
+}
+
+    #passion h2{
+        font-size: 1rem;
+    }
+
+    #contact-us h2{
+        font-size: 1rem;
+    }
+
+    .footer{
+        font-size: 0.8rem;
+    }
+
+    .develop{
+        font-size: 0.8rem;
+    }
+
+
+    
+    
+
+   
+
+    .photos{
+        width: 300px;
+        
+    }
+
+    
+
+    table{
+        width: 100%;
+        /* margin-left: 40px; */
+        height: 70vh;
+        margin-top: 15px;
+        /* border-color:  black  blanchedalmond; */
+        /* box-shadow: 20px; */
+        padding:10px;
+        
+    }
+    
+    thead{
+        color:cornsilk;
+        font-style: italic;
+        text-transform: lowercase;
+        font-variant-caps: petite-caps;
+        font-size: 0.6rem;
+        align-items: center;
+        padding: 7.5px 10px;
+       
+    }
+    
+    tbody td{
+        
+        font-size: 0.5rem;
+        color:whitesmoke;
+        align-items: center;
+        padding: 7.5px 10px;
+        font-weight: bold;
+        
+    
+    }
+    
+    tfoot td{
+        font-size: 0.5rem;
+        color:whitesmoke;
+        padding: 7.5px 10px;
+        font-weight: bold;
+        align-items: center;
+    }
+
+    .pas{
+        height: auto;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-left: 15px;
+     }
+
+     .submit{
+       margin: 0 auto;
+
+
+       
+
+     }
+     .footer{
+         margin-top: 35px;
+     }
+
+
+    
+    
+    
+
+
+
+}
+
